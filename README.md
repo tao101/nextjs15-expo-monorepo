@@ -5,7 +5,7 @@ A monorepo containing a Next.js web application and Expo React Native mobile app
 ## Project Structure
 
     ├── apps/
-    │ ├── mobile-app/ # Expo React Native app (file-based routing)
+    │ ├── mobile-app/ # Expo React Native app (expo router)
     │ └── web-app/ # Next.js 15 application
     ├── shared/ # Shared utilities between web and mobile
     ├── package.json # Root workspace config
