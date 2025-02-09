@@ -6,10 +6,10 @@
   "scripts": {
     "dev:web": "pnpm --filter web-app dev",
     "dev:mobile": "pnpm --filter mobile-app start",
-    "dev": "concurrently \"pnpm dev:web\" \"pnpm dev:mobile\"",
     "build:web": "pnpm --filter web-app build",
     "build:mobile": "pnpm --filter mobile-app build",
-    "test": "pnpm --filter web-app test && pnpm --filter mobile-app test"
+    "test": "pnpm --filter web-app test && pnpm --filter mobile-app test",
+    "clean": "rm -rf **/node_modules && rm -rf **/pnpm-lock.yaml"
   },
   "keywords": [],
   "author": "",
