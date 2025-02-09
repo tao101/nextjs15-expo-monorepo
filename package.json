@@ -9,7 +9,7 @@
     "build:web": "pnpm --filter web-app build",
     "build:mobile": "pnpm --filter mobile-app build",
     "test": "pnpm --filter web-app test && pnpm --filter mobile-app test",
-    "clean": "rm -rf **/node_modules && rm -rf **/pnpm-lock.yaml"
+    "clean": "rm -rf **/node_modules && rm -rf **/pnpm-lock.yaml && rm -rf **/.next && rm -rf **/.expo"
   },
   "keywords": [],
   "author": "",
