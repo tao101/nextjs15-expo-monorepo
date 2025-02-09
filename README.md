@@ -4,12 +4,12 @@ A monorepo containing a Next.js web application and Expo React Native mobile app
 
 ## Project Structure
 
-├── apps/
-│ ├── mobile-app/ # Expo React Native app (file-based routing)
-│ └── web-app/ # Next.js 15 application
-├── shared/ # Shared utilities between web and mobile
-├── package.json # Root workspace config
-└── pnpm-workspace.yaml # Monorepo configuration
+    ├── apps/
+    │ ├── mobile-app/ # Expo React Native app (file-based routing)
+    │ └── web-app/ # Next.js 15 application
+    ├── shared/ # Shared utilities between web and mobile
+    ├── package.json # Root workspace config
+    └── pnpm-workspace.yaml # Monorepo configuration
 
 ## Features
 
